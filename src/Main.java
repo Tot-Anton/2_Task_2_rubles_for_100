@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         int account = 200;
-        int profit = 1200;
-        int bonus = 11;
+        int profit = 1500;
+        int bonus = profit / 100;
 
         if (profit >= 1000) {
             System.out.println("Клиент пополнил счёт на:" + profit);
